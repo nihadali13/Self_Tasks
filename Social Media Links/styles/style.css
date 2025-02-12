@@ -1,0 +1,70 @@
+@import url(reset.css);
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.about,
+.links,
+.card,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+}
+
+.card {
+  background: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.icon {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about {
+  gap: 4px;
+}
+
+.links {
+  gap: 13px;
+}
+
+h2, p, a {
+  color: white;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+a {
+  border-radius: 6px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 90px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
