@@ -39,6 +39,7 @@ body {
 
 .links {
   gap: 13px;
+  align-items: stretch;
 }
 
 h2, p, a {
@@ -63,7 +64,6 @@ a {
   border-radius: 6px;
   background-color: hsl(0, 0%, 20%);
   padding: 10px 90px;
-  width: 100%;
   font-weight: bold;
   text-align: center;
   font-size: 14px;
